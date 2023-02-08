@@ -1,0 +1,27 @@
+{
+  "name": "festivalmusica",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS Y HYML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Douglas-i/FestivalMusica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Douglas Hernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Douglas-i/FestivalMusica/issues"
+  },
+  "homepage": "https://github.com/Douglas-i/FestivalMusica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.57.1"
+  }
+}
