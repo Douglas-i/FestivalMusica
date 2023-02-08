@@ -4,7 +4,8 @@
   "description": "Proyecto con Gulp, SASS Y HYML",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/scss:build/css"
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp primerTarea"
   },
   "repository": {
     "type": "git",
