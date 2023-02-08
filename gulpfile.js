@@ -1,12 +1,12 @@
+const { src, dest } = require("gulp");
+const sass = require("gulp-sass")(require('sass'))
+function css(done) {    
 
-function tarea(done){
-    console.log('Mi primer tarea');
-
-    done(); //Para informar que la tarea termino de ejecutarse
+    src('src/scss/app.scss'). //Identificar el archivo de SASS    
+        pipe(sass()). //Compilarlo
+        pipe(dest("build/css")); //Almacenaro en el disco dura
+        
+    done();//Callback que avisa a gulp cuando llegamos al final
 }
 
-exports.primerTarea = tarea; //Node js
-
-/**
-    Se ejecuta con npx gulp primerTarea
-**/
+exports.css = css;
