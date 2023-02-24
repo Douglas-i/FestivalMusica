@@ -15,3 +15,8 @@
         @content;
     }
 }
+@mixin grid($columnas, $espaciado) { //Mixins para crear columnas con grid
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $espaciado;
+}
